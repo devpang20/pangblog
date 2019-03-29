@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import MyName from './MyName';
 
 class App extends Component {
   render() {
@@ -9,14 +8,10 @@ class App extends Component {
       padding : '16px',
       color: 'white',
       fontSize: '25px' 
-   
     };
 
-
     return (
-      <div style = {style}>
-          리엑트 테스트
-       </div>
+      <MyName name ="리엑트 "style = {style}/>
     );
   }
 }
